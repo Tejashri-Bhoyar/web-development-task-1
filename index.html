@@ -1,0 +1,311 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>AccessAbility</title>
+
+  <!-- Google Font -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<!-- ===== NAVBAR ===== -->
+<header class="navbar">
+  <div class="container nav-content">
+    <div class="logo">
+       <img src="images/handylogo.webp" alt="Accessibility Logo" class="logo-img">
+       <span>AccessAbility</span>
+    </div>
+
+    <nav>
+      <a href="#services">Services</a>
+      <a href="#resources">Resources</a>
+      <a href="#about">About</a>
+      <a href="#contact">Contact</a>
+      <button class="btn primary">Get Started</button>
+    </nav>
+  </div>
+</header>
+
+<!-- ===== HERO ===== -->
+<section class="hero">
+  <div class="container hero-grid">
+    <div class="hero-text">
+      <h1>Empowering Lives<br>Through <br> Accessibility</h1>
+      <p>
+        Comprehensive support, resources, and services designed to help
+        individuals with disabilities live independently and thrive in
+        their communities.
+      </p>
+
+      <div class="hero-buttons">
+        <button class="btn primary">Explore Services</button>
+        <button class="btn outline">Learn More</button>
+      </div>
+    </div>
+
+    <div class="hero-image">
+      <img src="images/wheelchair.jpeg" alt="Person in Wheelchair">
+    </div>
+  </div>
+</section>
+
+<!-- ===== SERVICES ===== -->
+<section class="services" id="services">
+  <div class="container">
+    <h1>Our Services</h1>
+    <p class="section-sub">
+      Comprehensive support services designed to empower independence and
+      enhance quality of life
+    </p>
+
+    <div class="service-grid">
+      <div class="card">
+        <span class="icon">🧑‍⚕️</span>
+        <h3>Personal Care</h3>
+        <p>Professional assistance with daily living activities.</p>
+      </div>
+
+      <div class="card">
+        <span class="icon">❤️</span>
+        <h3>Healthcare Support</h3>
+        <p>Coordinated medical care and therapy services.</p>
+      </div>
+
+      <div class="card">
+        <span class="icon">💼</span>
+        <h3>Employment Services</h3>
+        <p>Job training and workplace accommodation support.</p>
+      </div>
+
+      <div class="card">
+        <span class="icon">🎓</span>
+        <h3>Education Programs</h3>
+        <p>Skill development and learning opportunities.</p>
+      </div>
+
+      <div class="card">
+        <span class="icon">🏠</span>
+        <h3>Housing Assistance</h3>
+        <p>Accessible housing and home modification help.</p>
+      </div>
+
+      <div class="card">
+        <span class="icon">👥</span>
+        <h3>Community Support</h3>
+        <p>Social activities and support groups.</p>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ===== RESOURCES & SUPPORT ===== -->
+<section class="resources-top" id="resources"> 
+  <div class="container resources-grid">
+    <!-- LEFT: Content -->
+    <div class="resources-content">
+      <h2>Resources & Support</h2>
+      <p class="resources-sub">
+        Helpful information, guidance, and tools to support independence and accessibility.
+      </p>
+
+      <div class="resource-list">
+        <div class="resource-item">
+          <h4>📚 Resource Library</h4>
+          <p>
+            Access guides, articles, and educational materials on disability rights and services.
+          </p>
+        </div>
+
+        <div class="resource-item">
+          <h4>⚖️ Legal Information</h4>
+          <p>
+            Understand your rights under ADA and other disability protection laws.
+          </p>
+        </div>
+
+        <div class="resource-item">
+          <h4>💡 Tips & Guides</h4>
+          <p>
+            Practical advice for daily living, accessibility, and independence.
+          </p>
+        </div>
+
+        <div class="resource-item">
+          <h4>❓ FAQs</h4>
+          <p>
+            Find answers to common questions about our services and support.
+          </p>
+        </div>
+      </div>
+    </div>
+
+    <!-- RIGHT: Image -->
+    <div class="resources-image">
+      <img src="images/blindperson.jpeg" alt="Accessibility Resources">
+    </div>
+  </div>
+</section>
+
+<!-- ===== ABOUT ACCESSABILITY ===== -->
+<section class="about-accessability" id="about"> 
+  <div class="container about-grid">
+    <div class="about-image">
+      <img src="images/about.jpeg" alt="About AccessAbility">
+    </div>
+
+    <div class="about-content">
+      <h2>About AccessAbility</h2>
+      <p>
+        For over 15 years, we've been dedicated to providing comprehensive support services that empower individuals with disabilities to live their best lives.
+      </p>
+      <p>
+        Our team of compassionate professionals works closely with each individual to create personalized care plans that address unique needs, goals, and aspirations. We believe in dignity, independence, and the right to full participation in community life.
+      </p>
+
+      <ul class="about-points">
+        <li>24/7 Support Availability</li>
+        <li>Personalized Care Plans</li>
+        <li>Experienced Professional Staff</li>
+        <li>Community Integration Programs</li>
+        <li>Accessible Transportation</li>
+        <li>Advocacy & Rights Protection</li>
+      </ul>
+
+      <button class="btn primary">Learn Our Story</button>
+    </div>
+  </div>
+</section>
+
+<!-- ===== GET IN TOUCH ===== -->
+<section class="contact-section" id="contact">
+  <div class="container">
+    <h2 class="contact-heading">Get In Touch</h2>
+    <p class="contact-sub">
+      Have questions or need assistance? We're here to help. Reach out to us today.
+    </p>
+
+    <div class="contact-grid">
+      <div class="contact-form-box">
+        <h3>Send us a message</h3>
+        <form id="contactForm">
+          <label for="name">Full Name</label>
+          <input type="text" id="name" name="name" placeholder="John Doe" required>
+
+          <label for="email">Email Address</label>
+          <input type="email" id="email" name="email" placeholder="john@example.com" required>
+
+          <label for="phone">Phone Number</label>
+          <input type="tel" id="phone" name="phone" placeholder="(555) 123-4567">
+
+          <label for="message">Message</label>
+          <textarea id="message" name="message" rows="5" placeholder="How can we help you?" required></textarea>
+
+          <button type="submit" class="btn primary">Send Message</button>
+        
+        </form>   
+      </div>
+
+      <div class="contact-info-box">
+        <h3>Contact Information</h3>
+        <p>We're available to answer your questions and provide support. Feel free to contact us through any of the following methods.</p>
+
+        <div class="info-item">
+          <span class="icon">📞</span>
+          <div>
+            <h4>Phone</h4>
+            <p>(555) 123-4567</p>
+            <p>Mon-Fri, 8am-6pm</p>
+          </div>
+        </div>
+
+        <div class="info-item">
+          <span class="icon">✉️</span>
+          <div>
+            <h4>Email</h4>
+            <p>info@accessability.org</p>
+            <p>We'll respond within 24 hours</p>
+          </div>
+        </div>
+
+        <div class="info-item">
+          <span class="icon">📍</span>
+          <div>
+            <h4>Address</h4>
+            <p>123 Access Street</p>
+            <p>Suite 100</p>
+            <p>Your City, ST 12345</p>
+          </div>
+        </div>
+
+        <div class="info-item emergency-box">
+         <h4>Emergency Support</h4>
+         <p class="emergency-text">For urgent assistance, call our 24/7 helpline:</p>
+         <p class="emergency-number">(555) 999-8888</p>
+        </div>
+
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ===== FOOTER ===== -->
+<footer class="footer">
+  <div class="container footer-grid">
+
+    <!-- LEFT COLUMN -->
+    <div class="footer-about">
+      <div class="footer-brand">
+        <img src="images/handylogo.webp" alt="Handicap Logo" class="footer-logo-img">
+        <span>AccessAbility</span>
+      </div>
+      <p class="footer-desc">
+        Empowering individuals with disabilities to live independently and thrive in their communities through comprehensive support and services.
+      </p>
+    </div>
+
+    <!-- MIDDLE COLUMN -->
+    <div class="footer-links">
+      <h4>Quick Links</h4>
+      <ul>
+        <li><a href="#">Services</a></li>
+        <li><a href="#">Resources</a></li>
+        <li><a href="#">About Us</a></li>
+        <li><a href="#">Contact</a></li>
+      </ul>
+    </div>
+
+    <!-- RIGHT COLUMN -->
+    <div class="footer-links">
+      <h4>Legal</h4>
+      <ul>
+        <li><a href="#">Privacy Policy</a></li>
+        <li><a href="#">Terms of Service</a></li>
+        <li><a href="#">Accessibility</a></li>
+      </ul>
+    </div>
+
+  </div>
+
+  <p class="footer-bottom">
+    © 2025 AccessAbility. All rights reserved.
+  </p>
+</footer>
+<script>
+  document.querySelectorAll('a[href^="#"]').forEach(link => {
+    link.addEventListener("click", function (e) {
+      e.preventDefault();
+      document
+        .querySelector(this.getAttribute("href"))
+        .scrollIntoView({ behavior: "smooth" });
+    });
+  });
+</script>
+
+</body>
+</html>
